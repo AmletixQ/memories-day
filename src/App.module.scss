@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+}
+
+.sections {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+
+  background-image: url("/images/sections-bg.jpg");
+  background-position: center;
+  background-size: cover;
+
+  padding-top: 150px;
+}
