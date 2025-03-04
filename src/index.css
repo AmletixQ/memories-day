@@ -1,5 +1,32 @@
-@import "tailwindcss";
+:root {
+  --primary-color: #f5dcff;
+  --secondary-color: #141414;
+  --tertiary-color: #f3f3f3;
+
+  --big-size: 90px;
+  --medium-size: 50px;
+  --regular-size: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Cygre", sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Cygre";
+  src:
+    url("/fonts/Cygre/Cygre-Regular.ttf"), url(/fonts/Cygre/Cygre-Semibold.ttf);
+}
+
+@font-face {
+  font-family: "Novelist";
+  src: url("/fonts/Novelist/Novelist.otf");
 }

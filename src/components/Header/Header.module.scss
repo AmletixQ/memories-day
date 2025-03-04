@@ -1,0 +1,36 @@
+.navigation {
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+
+  padding-top: 20px;
+
+  width: 100%;
+
+  &__parts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__part {
+    display: flex;
+    gap: 2rem;
+
+    a {
+      text-decoration: none;
+      color: var(--primary-color);
+      font-size: var(--regular-size);
+      transition: color 0.2s;
+
+      &:hover {
+        color: var(--tertiary-color);
+        text-decoration: underline;
+      }
+    }
+  }
+}
