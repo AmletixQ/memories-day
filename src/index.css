@@ -6,6 +6,7 @@
   --big-size: 90px;
   --medium-size: 50px;
   --regular-size: 20px;
+  --small-size: 14px;
 }
 
 * {
@@ -23,7 +24,8 @@ html {
 @font-face {
   font-family: "Cygre";
   src:
-    url("/fonts/Cygre/Cygre-Regular.ttf"), url(/fonts/Cygre/Cygre-Semibold.ttf);
+    url("/fonts/Cygre/Cygre-Regular.ttf"), url(/fonts/Cygre/Cygre-Semibold.ttf),
+    url("/fonts/Cygre/Cygre-Medium.ttf");
 }
 
 @font-face {

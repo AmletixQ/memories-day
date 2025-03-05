@@ -1,0 +1,14 @@
+.timeline {
+  position: relative;
+  display: grid;
+
+  grid-template-columns: repeat(2, 1fr);
+
+  &__line {
+    position: absolute;
+  }
+}
+
+.left {
+  flex-direction: row-reverse;
+}

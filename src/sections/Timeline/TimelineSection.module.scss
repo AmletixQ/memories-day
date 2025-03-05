@@ -1,0 +1,49 @@
+
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+
+  gap: 5rem;
+
+  &__title {
+    text-align: center;
+    font-size: var(--medium-size);
+    letter-spacing: 6%;
+    font-weight: 500;
+    color: var(--primary-color);
+  }
+
+  &__rows {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 125px;
+    position: relative;
+
+    &::before {
+      width: 3px;
+      height: 100%;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: calc(50% - 1px);
+      background-color: var(--primary-color);
+    }
+  }
+
+  &__box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 auto;
+    position: relative;
+  }
+
+  &__point {
+    width: 40px;
+    height: 40px;
+    background: var(--tertiary-color);
+    border-radius: 100%;
+  }
+}
