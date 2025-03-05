@@ -6,7 +6,9 @@
   align-items: center;
   gap: 4rem;
 
-  padding-top: 20px;
+  padding-top: 10px;
+
+  transition: background-color 0.3s;
 
   width: 100%;
 
@@ -33,4 +35,9 @@
       }
     }
   }
+}
+
+.blur {
+  background-color: rgba(70, 14, 85, 0.6);
+  backdrop-filter: blur(10px);
 }
