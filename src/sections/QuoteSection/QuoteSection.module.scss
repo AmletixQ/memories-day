@@ -1,0 +1,19 @@
+.quotes_container {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  row-gap: 40px;
+  column-gap: 20px;
+}
+
+.first {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 3;
+}
+
+.second {
+  grid-column: 1 / 3;
+
+}
