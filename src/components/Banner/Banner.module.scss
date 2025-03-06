@@ -1,0 +1,26 @@
+.banner {
+  position: relative;
+  background-color: #b3a3b9;
+
+  max-width: 100vw;
+  width: 100%;
+
+  padding: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__content {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+
+    & > h2 {
+      font-family: "Novelist";
+      font-size: var(--medium-size);
+      color: var(--primary-color);
+    }
+  }
+}
