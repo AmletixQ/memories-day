@@ -5,6 +5,8 @@
 
   row-gap: 40px;
   column-gap: 20px;
+
+  padding-top: 150px;
 }
 
 .first {
@@ -15,5 +17,4 @@
 
 .second {
   grid-column: 1 / 3;
-
 }
