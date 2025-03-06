@@ -18,6 +18,7 @@ const App = () => {
           <QuoteSection />
           <TimelineSection />
           <LoveLetter />
+          <h2 className={styles.congratulations}>С годовщиной, милая ❤️</h2>
         </div>
       </main>
     </>
