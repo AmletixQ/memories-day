@@ -1,4 +1,5 @@
 import Container from "../../components/Container/Container";
+import VioletHeart from "../../components/icons/VioletHeart/VioletHeart";
 import Memory from "../../components/Memory/Memory";
 import { IMemory } from "../../types/memory.interface";
 // import Timeline from "../../components/Timeline/Timeline";
@@ -55,9 +56,14 @@ const TimelineSection = () => {
         <h1 className={styles.timeline__title}>Моменты, которые запомнились</h1>
         <div className={styles.timeline__rows}>
           {memories.map((memory, index) => (
-            <div className={styles.timeline__box}>
+            <div
+              className={styles.timeline__box}
+              key={index + memory.date.getMilliseconds()}
+            >
               <Memory {...memory} index={index} />
-              <div className={styles.timeline__point} />
+              <div className={styles.timeline__point}>
+                <VioletHeart />
+              </div>
             </div>
           ))}
         </div>

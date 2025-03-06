@@ -1,7 +1,7 @@
 import { FC, useState } from "react";
 import { IMemory } from "../../types/memory.interface";
 
-import Heart from "../icons/Heart/Heart";
+import RedHeart from "../icons/RedHeart/RedHeart";
 
 import styles from "./Memory.module.scss";
 
@@ -24,7 +24,7 @@ const Memory: FC<IMemoryProps> = ({ index, ...memory }) => {
         <h4 className={styles.memory__date}>
           {memory.date.toLocaleDateString()}
         </h4>
-        <Heart />
+        <RedHeart />
       </div>
       {memory.description ? (
         <div

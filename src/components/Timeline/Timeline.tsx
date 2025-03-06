@@ -51,11 +51,7 @@ const Timeline = () => {
     <div className={styles.timeline}>
       <div className={styles.timeline__line} />
       {memories.map((memory, index) => (
-        <Memory
-          key={memory.title}
-          {...memory}
-          className={index % 2 == 0 ? styles.right : styles.left}
-        />
+        <Memory key={memory.title} {...memory} index={index} />
       ))}
     </div>
   );
