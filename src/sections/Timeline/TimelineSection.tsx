@@ -1,5 +1,5 @@
 import Container from "../../components/Container/Container";
-import VioletHeart from "../../components/icons/VioletHeart/VioletHeart";
+import VioletHeart from "../../components/icons/VioletHeart";
 import Memory from "../../components/Memory/Memory";
 import { IMemory } from "../../types/memory.interface";
 // import Timeline from "../../components/Timeline/Timeline";
@@ -52,7 +52,7 @@ const TimelineSection = () => {
 
   return (
     <Container>
-      <div className={styles.timeline}>
+      <div id="timeline" className={styles.timeline}>
         <h1 className={styles.timeline__title}>Моменты, которые запомнились</h1>
         <div className={styles.timeline__rows}>
           {memories.map((memory, index) => (
