@@ -6,6 +6,7 @@ import QuoteSection from "./sections/QuoteSection/QuoteSection";
 import TimelineSection from "./sections/Timeline/TimelineSection";
 
 import styles from "./App.module.scss";
+import VideoSection from "./sections/VideoSection/VideoSection";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
           <QuoteSection />
           <TimelineSection />
           <LoveLetter />
+          <VideoSection />
           <h2 className={styles.congratulations}>С годовщиной, любимая ❤️</h2>
         </div>
       </main>

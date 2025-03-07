@@ -1,0 +1,22 @@
+.video {
+  padding-bottom: 150px;
+
+  &__title {
+    color: var(--primary-color);
+    font-size: var(--medium-size);
+    text-align: center;
+  }
+
+  &__container {
+    padding-top: 5rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    & > div > video {
+      border-radius: 30px;
+      box-shadow: 0px -3px 40px rgba(196, 158, 239, 0.2);
+    }
+  }
+}
