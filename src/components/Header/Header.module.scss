@@ -15,14 +15,23 @@
 
   &__parts {
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 4rem;
+
+    :first-child {
+      justify-content: flex-end;
+    }
+
+    svg {
+      flex: 0 0 30%;
+    }
   }
 
   &__part {
     display: flex;
     gap: 2rem;
+
+    flex: 0 0 35%;
 
     a {
       text-decoration: none;

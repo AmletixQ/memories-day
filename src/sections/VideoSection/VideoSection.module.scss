@@ -1,4 +1,5 @@
 .video {
+  padding-top: 150px;
   padding-bottom: 150px;
 
   &__title {
@@ -9,7 +10,6 @@
 
   &__container {
     padding-top: 5rem;
-
     display: flex;
     align-items: center;
     justify-content: center;

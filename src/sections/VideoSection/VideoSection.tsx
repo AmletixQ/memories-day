@@ -5,7 +5,7 @@ import styles from "./VideoSection.module.scss";
 const VideoSection = () => {
   return (
     <Container>
-      <div className={styles.video}>
+      <div id="video" className={styles.video}>
         <h2 className={styles.video__title}>Видеообращение</h2>
         <div className={styles.video__container}>
           <ReactPlayer

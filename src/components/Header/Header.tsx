@@ -17,18 +17,16 @@ const Header = () => {
   }, []);
 
   const first_anchors = [
-    { href: "#memories", text: "Главная" },
     { href: "#quote", text: "Цитаты" },
+    { href: "#timeline", text: "Воспоминания" },
   ];
   const second_anchors = [
-    { href: "#timeline", text: "Карта воспоминаний" },
     { href: "#love-letter", text: "Письмо" },
+    { href: "#video", text: "Видео" },
   ];
 
   return (
-    <header
-      className={styles.navigation + " " + (scrolled ? styles.blur : "")}
-    >
+    <header className={styles.navigation + " " + (scrolled ? styles.blur : "")}>
       <Container>
         <div className={styles.navigation__parts}>
           <div className={styles.navigation__part}>
@@ -38,7 +36,9 @@ const Header = () => {
               </a>
             ))}
           </div>
-          <AA />
+          <a href="#memories">
+            <AA />
+          </a>
           <div className={styles.navigation__part}>
             {second_anchors.map((anchor) => (
               <a key={anchor.href + anchor.text} href={anchor.href}>
