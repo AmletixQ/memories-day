@@ -2,10 +2,13 @@
   position: relative;
 
   background-color: var(--primary-color);
-
-  font-size: var(--regular-size);
-  color: var(--secondary-color);
-
   padding: 50px 20px;
   border-radius: 1rem;
+
+  & > p {
+    font-size: var(--regular-size);
+    color: var(--secondary-color);
+
+    line-height: 120%;
+  }
 }

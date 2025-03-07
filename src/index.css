@@ -21,11 +21,27 @@ html {
   scroll-behavior: smooth;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Cygre";
   src:
     url("/fonts/Cygre/Cygre-Regular.ttf"), url(/fonts/Cygre/Cygre-Semibold.ttf),
     url("/fonts/Cygre/Cygre-Medium.ttf");
+} */
+
+@font-face {
+  font-family: "Cygre";
+  src: url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.eot");
+  src:
+    url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/3ed1693da2d7d3c28d28b79a8a1a6b0e.svg#Cygre")
+      format("svg");
 }
 
 @font-face {
