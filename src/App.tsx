@@ -7,6 +7,7 @@ import TimelineSection from "./sections/Timeline/TimelineSection";
 
 import styles from "./App.module.scss";
 import VideoSection from "./sections/VideoSection/VideoSection";
+import Modal from "./components/Modal/Modal";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <h2 className={styles.congratulations}>С годовщиной, любимая ❤️</h2>
         </div>
       </main>
+      <Modal />
     </>
   );
 };
