@@ -6,45 +6,47 @@ import styles from "./QuoteSection.module.scss";
 const QuoteSection = () => {
   return (
     <Container>
-        <div id="quote" className={styles.quotes_container}>
-          <Quote>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s. 1
-            </p>
-            <Dot>1</Dot>
-          </Quote>
-          <Quote>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s. 2
-            </p>
-            <Dot>2</Dot>
-          </Quote>
-          <Quote className={styles.first}>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard. text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard.
-            </p>
-            <Dot>3</Dot>
-          </Quote>
-          <Quote className={styles.second}>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s.Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard.
-            </p>
-            <Dot>4</Dot>
-          </Quote>
-        </div>
+      <div id="quote" className={styles.quotes_container}>
+        <Quote>
+          <p>
+            Порой давать слабину - это нормально. Очень трудно прийти к тому,
+            что осознанно это делать с самим собой. Еще труднее - когда
+            выкладываешь все своему партнеру. Полагаю, что такие моменты и
+            делают нас сильнее и ближе.
+          </p>
+          <Dot>1</Dot>
+        </Quote>
+        <Quote>
+          <p>
+            Как бы человек не хотел скрыть от своего партнера свои проблемы,
+            человек будет чувствовать напряжение, поскольку он беспокоится за
+            своего любимого. Трудно осознать проблему. Труднее решить ее. Еще
+            труднее - принять помощь извне.
+          </p>
+          <Dot>2</Dot>
+        </Quote>
+        <Quote className={styles.first}>
+          <p>
+            Помню, как я не брезговал с игнорированием людей. Какая бы причина
+            не была, совершал такие поступки. Со временем я осознал, что это
+            действие очень сильно портит не только отношения с человеком, но
+            также и сильно ранит его. Мы учимся на ошибках. Важно осознавать их
+            вовремя и пытаться исправить их как можно скорее. Ведь человек,
+            совершивший ошибку, и не пытающийся ее исправить - совершает еще
+            одну ошибку.
+          </p>
+          <Dot>3</Dot>
+        </Quote>
+        <Quote className={styles.second}>
+          <p>
+            Никто и ничто не совершенно, и в этом кроется настоящая красота.
+            Наши слабости и недостатки не делают нас хуже — они делают нас
+            людьми. Понимание и принятие друг друга такими, какие мы есть,
+            сближает нас сильнее, чем стремление к идеалу
+          </p>
+          <Dot>4</Dot>
+        </Quote>
+      </div>
     </Container>
   );
 };

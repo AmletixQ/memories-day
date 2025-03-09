@@ -11,52 +11,85 @@ const LoveLetter = () => {
       <Container>
         <div className={styles.loveLetter__box}>
           <div className={styles.loveLetter__paper}>
-            <h2 className={styles.loveLetter__title}>Точка перемен</h2>
+            <h2 className={styles.loveLetter__title}>Чувства и эмоции</h2>
             <div className={styles.loveLetter__content}>
               <p className={styles.loveLetter__content_first}>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes
+                Вот и подошел к нам новый год наших отношений, нашего
+                знакомства. Очень приятно осознавать то, что я не мог поверить,
+                что мы знакомы только 2 года, поскольку эти два года были
+                настолько всеобъемлющими, что ничто и никогда не сравнится с
+                этим. С градом чувств и эмоций, что приходилось носить в себе. С
+                абсолютной силой и волей пытаться и становиться все лучше и
+                лучше. Копаться внутри себя и наслаждаться своим ростом - не
+                только внешним, но и внутренним. Оглядываясь в прошлое, я могу с
+                уверенностью сказать, что мое прошлое «я» и «я» настоящий -
+                имеют поразительную разницу. Наверное, это время, а может что-то
+                еще или кто-то еще? Кто знает?
               </p>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of
-                ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
-                in section 1.10.32.
+                Нет таких слов, предложений, чтобы можно было бы действительно
+                выразить то, что я чувствую по отношению к тебе. Покой?
+                Умиротворение? Мотивация? В конечном итоге счастье? Любовь? Все
+                это лишь малая доля, и я чувствую, что меня снесет волной воды
+                от этих чувств.
               </p>
               <p>
-                Contrary to popular belief, Lorem Ipsum is not simply random
-                text. It has roots in a piece of classical Latin literature from
-                45 BC, making it over 2000 years old. Richard McClintock, a
-                Latin professor at Hampden-Sydney College in Virginia, looked up
-                one of the more obscure Latin words, consectetur, from a Lorem
-                Ipsum passage, and going through the cites of the word in
-                classical literature, discovered the undoubtable source. Lorem
-                Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
-                Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                written in 45 BC. This book is a treatise on the theory of
-                ethics, very popular during the Renaissance. The first line of
-                Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line
-                in section 1.10.32.
+                Отношения - не просто слова. Как некоторые выразились бы -
+                «статус» человека. А «быть в отношениях» - не просто какое-то
+                действие, которое происходит по щелчку пальцев. Отношения -
+                готовность человека принимать не только самого себя, любить
+                себя, но и способность понять другого человека, почувствовать
+                его, залезть под его кожу, в мысли, в сердце… настолько сложное
+                философское понятие, что можно написать об этом книгу, а то и
+                больше. «Быть в отношениях» - осознанное желание человека,
+                которое, может, и не приходит сразу. Скорее длительный процесс,
+                в котором люди познают друг друга. Я рад, что смог познать эти
+                вещи именно с тобой. Как будто это естественный порядок вещей
+                для меня, для тебя.
               </p>
-              <p></p>
+              <p>
+                Конечно, это невероятно трудное дело, но наряду с этим -
+                настолько приятное, что невозможно описать словами. Со временем
+                к этому привыкаешь, но все равно испытываешь сильный трепет со
+                всем этим. Расстояние между нами ничуть не помогает ситуации,
+                однако это испытание только укрепит нас не только как отдельные
+                личности, но и как осознанная пара. Нет времени, которое я хотел
+                бы изменить. Хотел бы пережить все, что было до этого момента.
+                Момента, когда я глубокой ночью печатаю письмо, размышляя о том
+                - "как бы мне не уйти далеко от текущей темы". 10 класс, вечера
+                с нашим проектом по профориентации, в конечном итоге простые
+                прогулки после школы... предаваясь этим воспоминаниям, могу
+                сказать, что они занимают особое место в моем сердце.
+              </p>
+              <p>
+                Полагаю так и писали письма в далеком прошлом? Простое скопление
+                мыслей, которые были перенесены на бумагу. В данном случае на
+                цифровую бумагу..? В конечном итоге то, что я хочу выразить -
+                так это то, что я до безумия люблю тебя и хочу, чтобы ты всегда
+                была счастливой. Мне до боли в сердце грустно, когда с тобой
+                случаются неудачи, но я горд, за то, как ты можешь преодалевать
+                все невзгоды на своем пути. Мне лишь хотелось, чтобы я мог
+                оказаться рядом и подставить тебе свое плечо...
+              </p>
+              <p>
+                Ты - очень дорогой для меня человек. Я скучаю по тебе очень
+                сильно. Просто улыбайся почаще и никогда не грусти. Ты всегда
+                можешь обратиться ко мне, и я никогда не оставлю тебя одну.
+                Люблю тебя!
+              </p>
             </div>
-            <div className={styles.loveLetter__credentionals}></div>
-
+            <div className={styles.loveLetter__block}>
+              <div className={styles.loveLetter__wishes}>
+                <p>
+                  Даже если весь мир встанет против тебя, я всегда буду на твоей
+                  стороне, несмотря ни на что!
+                </p>
+                <p>
+                  С наилучшими пожеланиями, твой всегда добрый и любящий
+                  Амридин.
+                </p>
+              </div>
+            </div>
             <Bookmark />
           </div>
         </div>

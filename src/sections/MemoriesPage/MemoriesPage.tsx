@@ -12,7 +12,9 @@ const MemoriesPage = () => {
               Пройдёмся по нашим воспоминаниям вместе
             </h1>
             <p className={styles.memories__wishes}>
-              Lorem ipsum dolor sit, amet consectetur
+              Пусть сияем мы ярче звезд! И пусть цветем мы лучше весенних
+              цветов! Не расстаемся в самые трудные времена! Поддерживаем друг
+              друга как <span>крепкая семья</span>!
             </p>
           </div>
 
