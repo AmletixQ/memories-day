@@ -44,4 +44,18 @@
     font-weight: 400;
     font-size: var(--medium-size);
   }
+
+  &__block {
+    display: flex;
+    justify-content: end;
+  }
+
+  &__wishes {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    width: 60%;
+    text-align: end;
+  }
 }

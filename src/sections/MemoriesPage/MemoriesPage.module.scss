@@ -64,5 +64,10 @@
 
   &__wishes {
     font-size: var(--regular-size);
+    width: 60%;
+
+    & span {
+      font-weight: bold;
+    }
   }
 }

@@ -21,6 +21,7 @@
   &__container {
     display: flex;
     justify-content: space-between;
+    align-items: end;
 
     background-color: var(--tertiary-color);
 

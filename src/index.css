@@ -21,12 +21,9 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @font-face {
-  font-family: "Cygre";
-  src:
-    url("/fonts/Cygre/Cygre-Regular.ttf"), url(/fonts/Cygre/Cygre-Semibold.ttf),
-    url("/fonts/Cygre/Cygre-Medium.ttf");
-} */
+::-webkit-scrollbar {
+  display: none;
+}
 
 @font-face {
   font-family: "Cygre";
